@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="stepdefinition.ReportTest"/>
+  </listeners>
+  <test thread-count="5" name="/Users/pradeep/Wipro-Amazon(failed)">
+    <classes>
+      <class name="Runnerfile.Runner">
+        <methods>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- Runnerfile.Runner -->
+    </classes>
+  </test> <!-- /Users/pradeep/Wipro-Amazon(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
